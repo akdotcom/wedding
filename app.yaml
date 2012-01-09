@@ -1,4 +1,4 @@
-application: smgnsanch
+application: akshayandanna
 version: 1
 runtime: python
 api_version: 1
@@ -8,12 +8,8 @@ handlers:
   static_files: index.html
   upload: index.html
   expiration: 0
-- url: /flowers-try-4.png
-  static_files: flowers-try-4.png
-  upload: flowers-try-4.png
-- url: /sarahandneil.png
-  static_files: sarahandneil.png
-  upload: sarahandneil.png
-- url: /left-thing-small.png
-  static_files: left-thing-small.png
-  upload: left-thing-small.png
+- url: /img
+  static_dir: img
+- url: /css
+  static_dir: css
+  
