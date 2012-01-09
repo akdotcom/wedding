@@ -51,8 +51,33 @@
           goods will be forthcoming at a later date.</p>
       </div>
       <div class="content rsvp">
-        <iframe style="margin-top:20px;" src="https://docs.google.com/spreadsheet/embeddedform?formkey=dGxHTEVVMHZDaTdTbFZ5UmpvNl9uM0E6MQ&bc=transparent&f=EB%20Garamond,Helvetica,sans-serif" width="500" height="460" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-      </div>
+        <p>We are putting together our wedding list and would greatly
+          appreciate it if you could give us your up-to-date names and 
+          mailing address.</p>
+          
+        <form action="https://docs.google.com/spreadsheet/formResponse?hl=en_US&amp;formkey=dGxHTEVVMHZDaTdTbFZ5UmpvNl9uM0E6MQ" method="POST" id="ss-form">
+          <div>
+            <label for="entry_0">Names&nbsp;&nbsp;
+              <input type="text" size="80" class="input"
+                     name="entry.0.single" value="" id="entry_0">
+            </label>
+          </div>
+    
+          <div>
+            <label for="entry_1">Address
+              <textarea cols="58" rows="6" class="input"
+                        name="entry.1.single" id="entry_1">
+              </textarea>
+            </label>
+          </div>
+    
+          <input type="hidden" name="pageNumber" value="0">
+          <input type="hidden" name="backupCache" value="">
+          <input type="submit" name="submit" value="Submit">
+        </form>
+      
+<!--         <iframe style="margin-top:20px;" src="https://docs.google.com/spreadsheet/embeddedform?formkey=dGxHTEVVMHZDaTdTbFZ5UmpvNl9uM0E6MQ&bc=transparent&f=EB%20Garamond,Helvetica,sans-serif" width="500" height="460" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+ -->      </div>
     </div>
 <!--     <div id="logo">
       <img src="/img/flowers-try-4.png" height="350" width="389">
