@@ -134,6 +134,7 @@ label {
   padding:3px 6px;
   box-shadow:inset 2px 2px 2px rgba(0,0,0,.1);
   vertical-align: top;
+  width: 420px;
 }
 
 form > div {
